@@ -1,18 +1,32 @@
 @charset "UTF-8";
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 
 
 header > h1 {
     background-color: lightgray;
 }
 
-div {
-    background-color: lightgreen;
-    height: 200px;
+article {
+    background-color: aliceblue;
     width: 200px;
-    display: block;
+    height: 200px;
+    margin: 80px;
+    text-align: justify;
+    padding: 10px;
 }
 
-main  article{
-    di
+article > h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: beige;
+    margin: -10px -10px 10px;
+}
+
+p {
+    text-indent: 30px;
 }
