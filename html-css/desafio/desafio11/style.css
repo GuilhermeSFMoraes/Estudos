@@ -7,21 +7,19 @@
     background-image: url('Imagens/espaco.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     height: 100vh;
-    position: relative;
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #astronauta {
     background-image: url('Imagens/astronauta.png');
     background-size: 100% 100%;
-    position: absolute;
-    height: 500px;
-    width: 508px;
-    left: 50%;
-    top: 50%;
-    transform: translate( -50%, -50%);
+    height: 30vw;
+    width: 30vw;
 }
 
 article {
